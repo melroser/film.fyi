@@ -1,4 +1,4 @@
-baseURL      = "https://www.film.fyi/"
+baseURL      = "https://film.fyi/"
 title        = "Film.Fyi"
 disableKinds = ["section", "taxonomy", "term"]
 
