@@ -4,7 +4,7 @@ disableKinds = ["section", "taxonomy", "term"]
 
 [params]
     # Set to enable Plausible Analytics.
-    plausible_domain = ""
+    plausible_domain = "film.fyi"
 
     [params.gallerydeluxe]
         # Shuffle the images in the gallery to give the impression of a new gallery each page load.
