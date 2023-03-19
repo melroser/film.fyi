@@ -9,7 +9,9 @@ disableKinds = ["section", "taxonomy", "term"]
     [params.gallerydeluxe]
         shuffle = true
         reverse = true
-        enable_exif = true 	# See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
+        enable_exif = true 	
+
+# See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
 
 [caches]
     [caches.images]
