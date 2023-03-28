@@ -1,6 +1,7 @@
 baseURL      = "https://film.fyi/"
-title        = "Film.Fyi"
+title        = "Film.fyi"
 disableKinds = ["section", "taxonomy", "term"]
+timeout = "3000s"
 
 [params]
     # Set to enable Plausible Analytics.
