@@ -29,7 +29,7 @@ timeout = "3000s"
     anchor         = "smart"
     [imaging.exif]
         disableDate    = false
-        disableLatLong = false
+        disableLatLong = true
         includeFields  = 'Artist|LensModel|FNumber|ExposureTime'
 
 [server]
