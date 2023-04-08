@@ -6,3 +6,4 @@ assets/jsconfig.json
 .netlify
 .DS_Store
 content/images/.001.jpg.swp
+content/images/*.jpg
