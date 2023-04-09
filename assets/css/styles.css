@@ -24,5 +24,6 @@ body {
 
 .logo:hover {
   cursor: pointer;
-  color: #327e40;
+  color: #474747;
+  rotate: 30deg;
 }

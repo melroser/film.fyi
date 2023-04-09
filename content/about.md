@@ -6,7 +6,7 @@ headless: true
 This site is a shuffled collection of film photography taken over several years mostly in the Brickell neighborhood of Miami at night... Mostly...
 
 
-You can learn more about the person responsible for the [Mediocre Street Photography Here](https://rob.rip)
+You can learn more about the [person responsible](https://rob.rip) for these mediocre images and find their other nonsense [Here](fullstack.lol)
 
 
 # Credit 
