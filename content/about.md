@@ -3,26 +3,10 @@ title: About
 headless: true
 ---
 
-This site is a shuffled collection of film photography taken over several years mostly in the Brickell neighborhood of Miami at night... Mostly...
+This site is a shuffled collection of 1793 film photography taken over several years mostly in the Brickell neighborhood of Miami at night... Mostly...
 
 
-You can learn more about the [person responsible](https://rob.rip) for these mediocre images and find their other nonsense [Here](fullstack.lol)
+You can learn more about the [person responsible](https://rob.rip) for these mediocre images and find their other internet nonsense [Here](fullstack.lol)
 
 
-# Credit 
-
-The Real Heros are the people who made the actually technology this is built with and then open sourced it.
-
-This site was made using the open source project Hugo
-
-This gallery was shamelessly plagurized from the Gallery Deluxe theme from [GoHugo.io](https://gohugo.io)
-
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
-
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+This site was made using the open source project Hugo and its design was shamelessly plagurized from the Gallery Deluxe theme from [GoHugo.io](https://gohugo.io)
