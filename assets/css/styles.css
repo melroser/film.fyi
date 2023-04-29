@@ -1,11 +1,10 @@
 html,
 body {
   height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: #474747;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
-    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0px;
+  padding: 5px;
+  background-color: #808080;
+  z-index: 0;
   font-size: 14px;
 }
 
@@ -14,16 +13,25 @@ body {
   top: 1rem;
   left: 1rem;
   z-index: 2;
-  color: #000000;
+  color: #FFF;
   text-shadow: 2px 2px;
+}
+
+.gd-figure:hover {
+  filter: contrast(1.2);
+  cursor: pointer;
 }
 
 .gd-modal-loaded .logo {
   display: none;
 }
 
+.gd-modal-exif-ontimeout {
+  transition: opacity 0.3s ease-out;
+  opacity: 0;
+}
+
 .logo:hover {
   cursor: pointer;
-  color: #474747;
   rotate: 30deg;
 }

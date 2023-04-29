@@ -1,7 +1,8 @@
 baseURL      = "https://film.fyi/"
 title        = "Film.fyi"
 disableKinds = ["section", "taxonomy", "term"]
-timeout = "3000s"
+timeout = "30000s"
+googleAnalytics = "G-12K93EKT44"
 
 [params]
     # Set to enable Plausible Analytics.
@@ -9,10 +10,10 @@ timeout = "3000s"
 
     [params.gallerydeluxe]
         # Shuffle the images in the gallery to give the impression of a new gallery each page load.
-        shuffle = true
+        shuffle = false
 
         # Reverse the order of the images in the gallery
-        reverse = false
+        reverse = true
 
         # Enable Exif data in the gallery.
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
@@ -25,12 +26,13 @@ timeout = "3000s"
 
 [imaging]
     resampleFilter = "CatmullRom"
-    quality        = 71
+    quality        = 80
     anchor         = "smart"
     [imaging.exif]
         disableDate    = false
         disableLatLong = true
-        includeFields  = 'Artist|LensModel|FNumber|ExposureTime'
+        includeFields  = 'Artist|LensModel|FNumber|ExposureTime|Copyright'
+        # includeFields  = '.*'
 
 [server]
     [[server.headers]]
