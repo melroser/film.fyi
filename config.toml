@@ -19,6 +19,19 @@ googleAnalytics = "G-12K93EKT44"
         # See https://gohugo.io/content-management/image-processing/#exif-data for how to filter tags.
         enable_exif = true
 
+    [params.giscus]
+	repo = "melroser/film.fyi"
+	repoID = "R_kgDOJKOMtQ"
+	category = "Announcements"
+	categoryID = "DIC_kwDOJKOMtc4CWklI"
+	mapping = "pathname"
+	reactionsEnabled = "1"
+	emitMetadata = "1"
+	inputPosition = "bottom"
+	theme = "dark"
+	lang = "en"
+	loading = "lazy"
+
 [caches]
     [caches.images]
         dir    = ':cacheDir/gallerydeluxe'
